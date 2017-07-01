@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E25E29D90CDE63E377058E271B87F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2F712B7252A47EA3EEFDE20FE47E9B0B /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1142CBED6622372D315746E5D725B1E /* SwiftyCamViewController.swift */; };
+		3D8F9EB19501A77F4E0357E140F6F295 /* Pods-imgscrollTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5C38D093FFB6E4B945091EB905B236 /* Pods-imgscrollTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569AE79FE18BC745D389B74DFDFCAB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5C823876F88F1871A0E5FE8BD11BF131 /* Pods-imgscroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE20993860E2AB1E0E645EDEDC91C44 /* Pods-imgscroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7666D386AD353F15DFD299094022E149 /* Pods-imgscrollUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C6CD03328C3A3E13F39C410F3D5EEA /* Pods-imgscrollUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD9B5F4F6664ADA83E94DA0BFF97123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		98954FA8E37B3BFA8129B11B14348D50 /* Pods-imgscroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AFE4B81017A019A11B286E94C66FAB /* Pods-imgscroll-dummy.m */; };
+		A43BB9CF708728BD4E080547E5C4759C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A58316F3862F5A4BEEA61026BBB46994 /* Pods-imgscrollTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E701EE92326C2D009212311430B767F5 /* Pods-imgscrollTests-dummy.m */; };
+		B90BEE6A285EDE4ED825E3E33AAE0635 /* Pods-imgscrollUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B8E263A576B466EBBCC1188C1D41BD /* Pods-imgscrollUITests-dummy.m */; };
+		C977C7676952F84E1AADA65FEE9B1268 /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F260082CD9E9D6306D7F71482C3CE01 /* SwiftyCam-dummy.m */; };
+		CABF5059CE297E58174D1A6E02B510BB /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E40F6235AC4CFA8CF4A2109ADF7C /* SwiftyCamButton.swift */; };
+		D593805F8BA33435FFE99EE205415D52 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F787EEDE14A5EFCDCC911F70F08534F /* PreviewView.swift */; };
+		EBDCB111CCEA4F2A6CD1F01E4CE072DA /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6480079F16B172BC91863C932BE8D2F7 /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F577905BC2E6C9058CDD38A8EC164108 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD94B353A3FC408FD1DDA00ED95410 /* SwiftyCamViewControllerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		296295C17190536C927CFB88C996ABC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563676F9D1652D0ADB8A2C5FABB5802A;
+			remoteInfo = SwiftyCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABBB58F6FAA63B4E48709964E8E9283 /* Pods-imgscrollUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-imgscrollUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1053E75CD192A5884C7133666CFB1854 /* Pods-imgscrollUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-imgscrollUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D5C38D093FFB6E4B945091EB905B236 /* Pods-imgscrollTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-imgscrollTests-umbrella.h"; sourceTree = "<group>"; };
+		244971F2B1FE9AFB1D795C51EF68AAF3 /* Pods-imgscrollTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-imgscrollTests.modulemap"; sourceTree = "<group>"; };
+		34EBA8BE587BA01EBE09265FA737E18F /* Pods-imgscrollUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-imgscrollUITests.modulemap"; sourceTree = "<group>"; };
+		393863CC4598DFD47799D0CB4613F91D /* Pods-imgscroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-imgscroll.modulemap"; sourceTree = "<group>"; };
+		39C6CD03328C3A3E13F39C410F3D5EEA /* Pods-imgscrollUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-imgscrollUITests-umbrella.h"; sourceTree = "<group>"; };
+		3F260082CD9E9D6306D7F71482C3CE01 /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
+		4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.xcconfig; sourceTree = "<group>"; };
+		5B403A6ECD85FF5BEECCBA4F747291EC /* Pods-imgscrollUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-imgscrollUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FEB75BB8AB91A3E06191BA405362615 /* Pods-imgscrollUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-imgscrollUITests-resources.sh"; sourceTree = "<group>"; };
+		6480079F16B172BC91863C932BE8D2F7 /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EED7FAEEC492CB5D81FC5AE7DDD3A45 /* Pods_imgscrollTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_imgscrollTests.framework; path = "Pods-imgscrollTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		706B1C65BEF7D8D1BFF03F681C6358FF /* Pods-imgscroll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-imgscroll-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B1A3F4DB5FBFABAF5C70AF5B6B0D04C /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
+		7E29E40F6235AC4CFA8CF4A2109ADF7C /* SwiftyCamButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = Source/SwiftyCamButton.swift; sourceTree = "<group>"; };
+		7F9B0F4FF6163D2DA9843AC236B9F2FC /* Pods-imgscrollTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-imgscrollTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89992B6DF830849315DBC39FE2DED5E2 /* Pods-imgscroll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-imgscroll-frameworks.sh"; sourceTree = "<group>"; };
+		8A580282FE8C6ACB0CF326D55341D67B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F787EEDE14A5EFCDCC911F70F08534F /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		993AFEE43AC8808F4FE081088CBA82CF /* Pods-imgscroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-imgscroll.release.xcconfig"; sourceTree = "<group>"; };
+		99CD94B353A3FC408FD1DDA00ED95410 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		9A38E54F65D93D08D6384045499B5BCC /* Pods-imgscrollUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-imgscrollUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F0BA0A5C05228DFC88F9E08FF29E4A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B8E263A576B466EBBCC1188C1D41BD /* Pods-imgscrollUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-imgscrollUITests-dummy.m"; sourceTree = "<group>"; };
+		B1142CBED6622372D315746E5D725B1E /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		B2AC12C329C8AF6ED06004301EE40071 /* Pods-imgscrollTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-imgscrollTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2CE3DC3C379CA2D649EF17291B506A6 /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
+		B4C1015A6FD153D2CD3237179CB2D858 /* Pods-imgscrollTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-imgscrollTests-resources.sh"; sourceTree = "<group>"; };
+		B59ACBBD7C1B6756402348D6EB62CE0C /* Pods-imgscrollUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-imgscrollUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BA88E6D19979EF29361E901B9C8F1CDB /* Pods-imgscroll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-imgscroll-resources.sh"; sourceTree = "<group>"; };
+		BD94DE053B75BB23E9B00391FE322030 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C466ADCDB7B86B7D9B9818081B434B9F /* Pods-imgscroll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-imgscroll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D05805C7670A5141ABC1A6C35734B7E6 /* Pods_imgscroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_imgscroll.framework; path = "Pods-imgscroll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19172C11AE442D63CCBE20CC5DA168A /* Pods-imgscrollTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-imgscrollTests-frameworks.sh"; sourceTree = "<group>"; };
+		D1C711D724461006CE6F20E77E42C4DC /* Pods-imgscroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-imgscroll.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AFE4B81017A019A11B286E94C66FAB /* Pods-imgscroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-imgscroll-dummy.m"; sourceTree = "<group>"; };
+		DEE1ACEFEF18F1C7C9CEF120DE26E394 /* Pods-imgscrollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-imgscrollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E701EE92326C2D009212311430B767F5 /* Pods-imgscrollTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-imgscrollTests-dummy.m"; sourceTree = "<group>"; };
+		EE4D3A20B20EEE1C6E574B15C5D95AB1 /* Pods-imgscrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-imgscrollTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEE20993860E2AB1E0E645EDEDC91C44 /* Pods-imgscroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-imgscroll-umbrella.h"; sourceTree = "<group>"; };
+		F23B11946C0371D1AD9FD16277D3ACDE /* Pods_imgscrollUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_imgscrollUITests.framework; path = "Pods-imgscrollUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F689246327A1B30792FABF150B59921F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0C92C8AA376E73637F73321FEAA10E /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCam.framework; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89FC77A85560979F2E5AA847D809B2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD9B5F4F6664ADA83E94DA0BFF97123 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC758E18555380EE301A76979B542C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E25E29D90CDE63E377058E271B87F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9163947920B8B642B112964A2759552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43BB9CF708728BD4E080547E5C4759C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4616276EE3920355550357EE6B10C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569AE79FE18BC745D389B74DFDFCAB76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAB137789309075370324EFADEA4FFD /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				8F787EEDE14A5EFCDCC911F70F08534F /* PreviewView.swift */,
+				7E29E40F6235AC4CFA8CF4A2109ADF7C /* SwiftyCamButton.swift */,
+				B1142CBED6622372D315746E5D725B1E /* SwiftyCamViewController.swift */,
+				99CD94B353A3FC408FD1DDA00ED95410 /* SwiftyCamViewControllerDelegate.swift */,
+				83574DFCF9BBF7F96E7560A429B5EF23 /* Support Files */,
+			);
+			name = SwiftyCam;
+			path = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		0B908D219F50293D5D6C12BD5B2B02E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB137789309075370324EFADEA4FFD /* SwiftyCam */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D5CF79045A9CFB07B29650B26FB1A5D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD08BFD7AFA27E78D6061D0739AC866 /* Pods-imgscroll */,
+				9851A48E6DB047A8BC89C3AC77045E87 /* Pods-imgscrollTests */,
+				CB6ECAABAA90E3B628915E5782CA5E17 /* Pods-imgscrollUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55019093AA3ED477A5B2B36D6D900A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05805C7670A5141ABC1A6C35734B7E6 /* Pods_imgscroll.framework */,
+				6EED7FAEEC492CB5D81FC5AE7DDD3A45 /* Pods_imgscrollTests.framework */,
+				F23B11946C0371D1AD9FD16277D3ACDE /* Pods_imgscrollUITests.framework */,
+				FF0C92C8AA376E73637F73321FEAA10E /* SwiftyCam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B908D219F50293D5D6C12BD5B2B02E5 /* Pods */,
+				55019093AA3ED477A5B2B36D6D900A63 /* Products */,
+				2D5CF79045A9CFB07B29650B26FB1A5D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83574DFCF9BBF7F96E7560A429B5EF23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A580282FE8C6ACB0CF326D55341D67B /* Info.plist */,
+				7B1A3F4DB5FBFABAF5C70AF5B6B0D04C /* SwiftyCam.modulemap */,
+				4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */,
+				3F260082CD9E9D6306D7F71482C3CE01 /* SwiftyCam-dummy.m */,
+				B2CE3DC3C379CA2D649EF17291B506A6 /* SwiftyCam-prefix.pch */,
+				6480079F16B172BC91863C932BE8D2F7 /* SwiftyCam-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCam";
+			sourceTree = "<group>";
+		};
+		9851A48E6DB047A8BC89C3AC77045E87 /* Pods-imgscrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				F689246327A1B30792FABF150B59921F /* Info.plist */,
+				244971F2B1FE9AFB1D795C51EF68AAF3 /* Pods-imgscrollTests.modulemap */,
+				7F9B0F4FF6163D2DA9843AC236B9F2FC /* Pods-imgscrollTests-acknowledgements.markdown */,
+				B2AC12C329C8AF6ED06004301EE40071 /* Pods-imgscrollTests-acknowledgements.plist */,
+				E701EE92326C2D009212311430B767F5 /* Pods-imgscrollTests-dummy.m */,
+				D19172C11AE442D63CCBE20CC5DA168A /* Pods-imgscrollTests-frameworks.sh */,
+				B4C1015A6FD153D2CD3237179CB2D858 /* Pods-imgscrollTests-resources.sh */,
+				1D5C38D093FFB6E4B945091EB905B236 /* Pods-imgscrollTests-umbrella.h */,
+				DEE1ACEFEF18F1C7C9CEF120DE26E394 /* Pods-imgscrollTests.debug.xcconfig */,
+				EE4D3A20B20EEE1C6E574B15C5D95AB1 /* Pods-imgscrollTests.release.xcconfig */,
+			);
+			name = "Pods-imgscrollTests";
+			path = "Target Support Files/Pods-imgscrollTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6ECAABAA90E3B628915E5782CA5E17 /* Pods-imgscrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD94DE053B75BB23E9B00391FE322030 /* Info.plist */,
+				34EBA8BE587BA01EBE09265FA737E18F /* Pods-imgscrollUITests.modulemap */,
+				1053E75CD192A5884C7133666CFB1854 /* Pods-imgscrollUITests-acknowledgements.markdown */,
+				9A38E54F65D93D08D6384045499B5BCC /* Pods-imgscrollUITests-acknowledgements.plist */,
+				A1B8E263A576B466EBBCC1188C1D41BD /* Pods-imgscrollUITests-dummy.m */,
+				B59ACBBD7C1B6756402348D6EB62CE0C /* Pods-imgscrollUITests-frameworks.sh */,
+				5FEB75BB8AB91A3E06191BA405362615 /* Pods-imgscrollUITests-resources.sh */,
+				39C6CD03328C3A3E13F39C410F3D5EEA /* Pods-imgscrollUITests-umbrella.h */,
+				0ABBB58F6FAA63B4E48709964E8E9283 /* Pods-imgscrollUITests.debug.xcconfig */,
+				5B403A6ECD85FF5BEECCBA4F747291EC /* Pods-imgscrollUITests.release.xcconfig */,
+			);
+			name = "Pods-imgscrollUITests";
+			path = "Target Support Files/Pods-imgscrollUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DDD08BFD7AFA27E78D6061D0739AC866 /* Pods-imgscroll */ = {
+			isa = PBXGroup;
+			children = (
+				9F0BA0A5C05228DFC88F9E08FF29E4A0 /* Info.plist */,
+				393863CC4598DFD47799D0CB4613F91D /* Pods-imgscroll.modulemap */,
+				C466ADCDB7B86B7D9B9818081B434B9F /* Pods-imgscroll-acknowledgements.markdown */,
+				706B1C65BEF7D8D1BFF03F681C6358FF /* Pods-imgscroll-acknowledgements.plist */,
+				D5AFE4B81017A019A11B286E94C66FAB /* Pods-imgscroll-dummy.m */,
+				89992B6DF830849315DBC39FE2DED5E2 /* Pods-imgscroll-frameworks.sh */,
+				BA88E6D19979EF29361E901B9C8F1CDB /* Pods-imgscroll-resources.sh */,
+				EEE20993860E2AB1E0E645EDEDC91C44 /* Pods-imgscroll-umbrella.h */,
+				D1C711D724461006CE6F20E77E42C4DC /* Pods-imgscroll.debug.xcconfig */,
+				993AFEE43AC8808F4FE081088CBA82CF /* Pods-imgscroll.release.xcconfig */,
+			);
+			name = "Pods-imgscroll";
+			path = "Target Support Files/Pods-imgscroll";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E3DD6D0FFD02D66F9F1073EB3BC30C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7666D386AD353F15DFD299094022E149 /* Pods-imgscrollUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B298F555E4C5ABED978052486693DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8F9EB19501A77F4E0357E140F6F295 /* Pods-imgscrollTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E913C55D4C8AB16B5CEB54F220D0C9E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C823876F88F1871A0E5FE8BD11BF131 /* Pods-imgscroll-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F171524E791371E1BB1447261D0E1F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDCB111CCEA4F2A6CD1F01E4CE072DA /* SwiftyCam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A08A40AF1F1ADA014EABAD05CFB28B6 /* Pods-imgscroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594A94C5AE97903CDC929439CF92BB6C /* Build configuration list for PBXNativeTarget "Pods-imgscroll" */;
+			buildPhases = (
+				31FF5F2124E7DA7B7545D28D8A994CFF /* Sources */,
+				B9163947920B8B642B112964A2759552 /* Frameworks */,
+				E913C55D4C8AB16B5CEB54F220D0C9E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA71B90A4E917206DBF78FA2CAF347C /* PBXTargetDependency */,
+			);
+			name = "Pods-imgscroll";
+			productName = "Pods-imgscroll";
+			productReference = D05805C7670A5141ABC1A6C35734B7E6 /* Pods_imgscroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		563676F9D1652D0ADB8A2C5FABB5802A /* SwiftyCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF579953A1E89E4535319DD54167C13B /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
+			buildPhases = (
+				1AD6CACD28FE37521BF470872A380521 /* Sources */,
+				AFC758E18555380EE301A76979B542C7 /* Frameworks */,
+				F171524E791371E1BB1447261D0E1F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCam;
+			productName = SwiftyCam;
+			productReference = FF0C92C8AA376E73637F73321FEAA10E /* SwiftyCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7164AAC8CE4238F9669B4458D043B49 /* Pods-imgscrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CB96C48CDB2A9617439EAB9903534A /* Build configuration list for PBXNativeTarget "Pods-imgscrollTests" */;
+			buildPhases = (
+				B5C8C906CA6DE5E0B0A17D59484AE7CB /* Sources */,
+				E4616276EE3920355550357EE6B10C84 /* Frameworks */,
+				59B298F555E4C5ABED978052486693DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-imgscrollTests";
+			productName = "Pods-imgscrollTests";
+			productReference = 6EED7FAEEC492CB5D81FC5AE7DDD3A45 /* Pods_imgscrollTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8D9BD862036B9312329375BEE60FC43 /* Pods-imgscrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51459BFEB7B0CCDBD8B39A0B82A9A4DD /* Build configuration list for PBXNativeTarget "Pods-imgscrollUITests" */;
+			buildPhases = (
+				E26C9B19EDE1A8592C156EBD4EEF2B62 /* Sources */,
+				89FC77A85560979F2E5AA847D809B2C2 /* Frameworks */,
+				3E3DD6D0FFD02D66F9F1073EB3BC30C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-imgscrollUITests";
+			productName = "Pods-imgscrollUITests";
+			productReference = F23B11946C0371D1AD9FD16277D3ACDE /* Pods_imgscrollUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 55019093AA3ED477A5B2B36D6D900A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A08A40AF1F1ADA014EABAD05CFB28B6 /* Pods-imgscroll */,
+				B7164AAC8CE4238F9669B4458D043B49 /* Pods-imgscrollTests */,
+				F8D9BD862036B9312329375BEE60FC43 /* Pods-imgscrollUITests */,
+				563676F9D1652D0ADB8A2C5FABB5802A /* SwiftyCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD6CACD28FE37521BF470872A380521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593805F8BA33435FFE99EE205415D52 /* PreviewView.swift in Sources */,
+				C977C7676952F84E1AADA65FEE9B1268 /* SwiftyCam-dummy.m in Sources */,
+				CABF5059CE297E58174D1A6E02B510BB /* SwiftyCamButton.swift in Sources */,
+				2F712B7252A47EA3EEFDE20FE47E9B0B /* SwiftyCamViewController.swift in Sources */,
+				F577905BC2E6C9058CDD38A8EC164108 /* SwiftyCamViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FF5F2124E7DA7B7545D28D8A994CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98954FA8E37B3BFA8129B11B14348D50 /* Pods-imgscroll-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C8C906CA6DE5E0B0A17D59484AE7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58316F3862F5A4BEEA61026BBB46994 /* Pods-imgscrollTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26C9B19EDE1A8592C156EBD4EEF2B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90BEE6A285EDE4ED825E3E33AAE0635 /* Pods-imgscrollUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA71B90A4E917206DBF78FA2CAF347C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 563676F9D1652D0ADB8A2C5FABB5802A /* SwiftyCam */;
+			targetProxy = 296295C17190536C927CFB88C996ABC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08454092D7DB494BB0086DC248A6B88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4D3A20B20EEE1C6E574B15C5D95AB1 /* Pods-imgscrollTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-imgscrollTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-imgscrollTests/Pods-imgscrollTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_imgscrollTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		25E58AA458A7DF8E422B60F525C8CA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27704BDCC179F1BB0847446D20C69BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61C589154DAEC5C475D4D63705F4C10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B403A6ECD85FF5BEECCBA4F747291EC /* Pods-imgscrollUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-imgscrollUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-imgscrollUITests/Pods-imgscrollUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_imgscrollUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8440D5E3F02FD530B1BE25285C914F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993AFEE43AC8808F4FE081088CBA82CF /* Pods-imgscroll.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-imgscroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-imgscroll/Pods-imgscroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_imgscroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B571445FA0465CB23AED45F93DE70049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABBB58F6FAA63B4E48709964E8E9283 /* Pods-imgscrollUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-imgscrollUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-imgscrollUITests/Pods-imgscrollUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_imgscrollUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D53430457E8BA1D19C20BD79D87AB7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C711D724461006CE6F20E77E42C4DC /* Pods-imgscroll.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-imgscroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-imgscroll/Pods-imgscroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_imgscroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E966E2799217BE3427C6ABD2CFD75B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE1ACEFEF18F1C7C9CEF120DE26E394 /* Pods-imgscrollTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-imgscrollTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-imgscrollTests/Pods-imgscrollTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_imgscrollTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51459BFEB7B0CCDBD8B39A0B82A9A4DD /* Build configuration list for PBXNativeTarget "Pods-imgscrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571445FA0465CB23AED45F93DE70049 /* Debug */,
+				61C589154DAEC5C475D4D63705F4C10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594A94C5AE97903CDC929439CF92BB6C /* Build configuration list for PBXNativeTarget "Pods-imgscroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53430457E8BA1D19C20BD79D87AB7F6 /* Debug */,
+				8440D5E3F02FD530B1BE25285C914F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF579953A1E89E4535319DD54167C13B /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E58AA458A7DF8E422B60F525C8CA51 /* Debug */,
+				27704BDCC179F1BB0847446D20C69BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CB96C48CDB2A9617439EAB9903534A /* Build configuration list for PBXNativeTarget "Pods-imgscrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E966E2799217BE3427C6ABD2CFD75B3B /* Debug */,
+				08454092D7DB494BB0086DC248A6B88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
